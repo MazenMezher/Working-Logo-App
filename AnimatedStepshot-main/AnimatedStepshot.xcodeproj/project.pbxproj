@@ -13,6 +13,10 @@
 		A812E91F2848D922006C8FC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A812E91E2848D922006C8FC8 /* Assets.xcassets */; };
 		A812E9222848D922006C8FC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A812E9212848D922006C8FC8 /* Preview Assets.xcassets */; };
 		A812E9392848DAC5006C8FC8 /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = A812E9382848DAC5006C8FC8 /* RiveRuntime */; };
+		A8158C2828ABCA890035CFB3 /* JobSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8158C2728ABCA890035CFB3 /* JobSearchView.swift */; };
+		A8158C2A28ABD5EA0035CFB3 /* JobListings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8158C2928ABD5EA0035CFB3 /* JobListings.swift */; };
+		A8158C2C28ABD8B90035CFB3 /* JobListingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8158C2B28ABD8B90035CFB3 /* JobListingCard.swift */; };
+		A8158C2E28AD12180035CFB3 /* ApiCallComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8158C2D28AD12180035CFB3 /* ApiCallComponent.swift */; };
 		A84F4220284F6D3F005BD02A /* CourseSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84F421E284F6D3F005BD02A /* CourseSection.swift */; };
 		A84F4221284F6D3F005BD02A /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84F421F284F6D3F005BD02A /* Course.swift */; };
 		A84F4227284F7485005BD02A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84F4226284F7485005BD02A /* Extensions.swift */; };
@@ -45,6 +49,10 @@
 		A812E91A2848D921006C8FC8 /* AnimatedStepshotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedStepshotApp.swift; sourceTree = "<group>"; };
 		A812E91E2848D922006C8FC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A812E9212848D922006C8FC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A8158C2728ABCA890035CFB3 /* JobSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobSearchView.swift; sourceTree = "<group>"; };
+		A8158C2928ABD5EA0035CFB3 /* JobListings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobListings.swift; sourceTree = "<group>"; };
+		A8158C2B28ABD8B90035CFB3 /* JobListingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobListingCard.swift; sourceTree = "<group>"; };
+		A8158C2D28AD12180035CFB3 /* ApiCallComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCallComponent.swift; sourceTree = "<group>"; };
 		A84F421E284F6D3F005BD02A /* CourseSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseSection.swift; sourceTree = "<group>"; };
 		A84F421F284F6D3F005BD02A /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 		A84F4226284F7485005BD02A /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -106,14 +114,17 @@
 				A86DC47928587D7300698E6E /* Info.plist */,
 				A894F1142848DC8100AF2B29 /* OnboardingView.swift */,
 				A84F422E2850A94A005BD02A /* HomeView.swift */,
+				A8158C2728ABCA890035CFB3 /* JobSearchView.swift */,
 				A84F42342850CF47005BD02A /* ContentView.swift */,
 				A812E91A2848D921006C8FC8 /* AnimatedStepshotApp.swift */,
 				A84F422C285082F3005BD02A /* HCard.swift */,
 				A84F4228284F74C6005BD02A /* VCard.swift */,
+				A8158C2B28ABD8B90035CFB3 /* JobListingCard.swift */,
 				A894F120284A00A300AF2B29 /* CustomFont.swift */,
 				A84F4226284F7485005BD02A /* Extensions.swift */,
 				A86AEAF0285320A3005AF642 /* ImagePickerView.swift */,
 				A801BC222897D67C003B3FB5 /* ContentViewModel.swift */,
+				A8158C2D28AD12180035CFB3 /* ApiCallComponent.swift */,
 				A801BC202869ADDC003B3FB5 /* ImagePickerCoordinator.swift */,
 				A812E91E2848D922006C8FC8 /* Assets.xcassets */,
 				A86AEADB2851DB47005AF642 /* RiveAssets */,
@@ -136,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				A84F421E284F6D3F005BD02A /* CourseSection.swift */,
+				A8158C2928ABD5EA0035CFB3 /* JobListings.swift */,
 				A84F421F284F6D3F005BD02A /* Course.swift */,
 			);
 			path = Model;
@@ -267,8 +279,11 @@
 				A84F4221284F6D3F005BD02A /* Course.swift in Sources */,
 				A86AEAF1285320A3005AF642 /* ImagePickerView.swift in Sources */,
 				A84F4227284F7485005BD02A /* Extensions.swift in Sources */,
+				A8158C2828ABCA890035CFB3 /* JobSearchView.swift in Sources */,
 				A894F121284A00A300AF2B29 /* CustomFont.swift in Sources */,
+				A8158C2C28ABD8B90035CFB3 /* JobListingCard.swift in Sources */,
 				A801BC232897D67C003B3FB5 /* ContentViewModel.swift in Sources */,
+				A8158C2E28AD12180035CFB3 /* ApiCallComponent.swift in Sources */,
 				A84F42392850D344005BD02A /* MenuRow.swift in Sources */,
 				A84F422F2850A94A005BD02A /* HomeView.swift in Sources */,
 				A84F42372850CFA2005BD02A /* SideMenu.swift in Sources */,
@@ -276,6 +291,7 @@
 				A8F5006B284F2DFA006A5762 /* TabBar.swift in Sources */,
 				A84F4220284F6D3F005BD02A /* CourseSection.swift in Sources */,
 				A812E91B2848D921006C8FC8 /* AnimatedStepshotApp.swift in Sources */,
+				A8158C2A28ABD5EA0035CFB3 /* JobListings.swift in Sources */,
 				A801BC212869ADDC003B3FB5 /* ImagePickerCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

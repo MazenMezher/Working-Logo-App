@@ -30,7 +30,7 @@ struct ContentView: View {
                 case .home:
                     HomeView()
                 case .search:
-                    Text("Search jobs")
+                    JobSearchView()
                 case .timer:
                     ImagePickerView()
                 case .bell:
@@ -96,7 +96,7 @@ struct ContentView: View {
                 .offset(y: isOpen ? 300 : 0)
                 .offset(y: -24)
                 .background(
-                    LinearGradient(colors: [Color("Background").opacity(0),Color("Background")], startPoint: .top, endPoint: .bottom)
+                    LinearGradient(colors: [Color("Background").opacity(0),Color("Bcakground")], startPoint: .top, endPoint: .bottom)
                         .frame(height: 150)
                         .frame(maxHeight: .infinity, alignment: .bottom)
                         .allowsTightening(false)

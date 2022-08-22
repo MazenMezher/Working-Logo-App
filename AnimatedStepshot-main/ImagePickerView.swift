@@ -15,7 +15,7 @@ struct ImagePickerView: View {
     @State private var showImagePicker: Bool = false
     @State private var sourceType: UIImagePickerController.SourceType = .camera
     @State private var image: UIImage?
-    @State var placeHolderText = "I'm a placeholder "
+    @State var placeHolderText = "I'm a placeholder"
     
     var body: some View {
         
@@ -26,6 +26,8 @@ struct ImagePickerView: View {
             }
         }
     }
+    // This is mostly ui stuff that is shown in the Jobs section in the app.
+    // I used a scrollview as i want the Jobs title will be aligned at the exact starting point like other views
     
     var content: some View {
         

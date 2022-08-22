@@ -15,11 +15,13 @@ class ImagePickerCoordinator: NSObject, UINavigationControllerDelegate, UIImageP
         _image = image
         _isShown = isShown
     }
-    
+    //Function below handels picking a image and it handels that data. Future note move the api stuff into its own component for cleaner code and less confusion
+    //Before putting this project to rest i worked on cleaning up this component and getting the logo description to show up in the UI in ImagePickerView.swift.
+    //I was also working on the JobSearchView component to build a search field to be able to search for a specific job but also show all jobs in the users area.
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         
         
-        
+    
         if let uiImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
             image = uiImage
             isShown = false

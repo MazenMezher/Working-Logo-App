@@ -1,10 +1,3 @@
-//
-//  Course.swift
-//  AnimatedApp
-//
-//  Created by Meng To on 2022-04-14.
-//
-
 import SwiftUI
 
 struct Course: Identifiable {
